@@ -26,10 +26,10 @@ num1, num2 , result = 100,200, 0
 
 result = add_func(num1,num2)
 
-print(result)
+print(num1, '+', num2, "=", result)
 result = sub_func(num1,num2)
-print(result)
+print(num1, '-', num2, "=", result)
 result = mul_func(num1,num2)
-print(result)
+print(num1, '*', num2, "=", result)
 result = ex_func(num1,num2)
-print(result)
+print(num1, '/', num2, "=", result)
